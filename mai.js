@@ -27,7 +27,7 @@ let bigNumber = 9007199254740991n;
 let huge = BigInt("12456789012345678901234567890");
 let isAlive = true;
 let isWorking = false;
-let isAdult = age => 18;
+let isAdult = (age) => 18;
 let x;
 let y = undefined;
 let userData = null;
@@ -35,17 +35,17 @@ let userData = null;
 let id = Symbol("id");
 
 let person = {
-    name: "Misha",
-    age: 21,
-    isStudent: false,
-    sayHello: function () {
-        console.log("Привет!");
-    },
+  name: "Миша",
+  age: 21,
+  isStudent: false,
+  sayHello: function () {
+    console.log("Привет!");
+  },
 };
-console.log(person.name)
+console.log(person.name);
 
-let fruits = ["яблоко", "банан", "груша"]
-let numbers = [1, 2, 3, 4, 5]
+let fruits = ["яблоко", "банан", "груша"];
+let numbers = [1, 2, 3, 4, 5];
 let mixed = ["Текст", 42, true, null];
 
 function sum(a,b) {
@@ -145,3 +145,14 @@ console.log(obj1 === obj3);
 let arr1 = [1,2,3];
 let arr2 = [1,2,3];
 console.log(arr1 === arr2)
+
+// let x1 = 10;
+// let y1 = 2;
+// console.log(x1 + y1);
+// console.log(x1 - y1);
+
+let a2 = 5;
+let b2 = 7;
+console.log(a2 + b2);
+console.log(a2 / b2);
+console.log(a2 * b2);

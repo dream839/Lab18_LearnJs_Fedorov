@@ -156,3 +156,68 @@ let b2 = 7;
 console.log(a2 + b2);
 console.log(a2 / b2);
 console.log(a2 * b2);
+
+
+let yourAge = 18;
+
+if (yourAge >= 18) {
+    console.log("Доступ разрешён");
+} else {
+    console.log("Доступ запрещён");
+}
+
+// zadan 1
+/*
+let temp = 15
+
+if (temp <= 0) {
+    console.log("Холодно");
+} else if (0 < temp <= 20) {
+    console.log("Прохладно");
+} else {
+    console.log("Тепло")
+}
+*/
+
+//zadan 2
+/*
+let isLoggedIn = true;
+let isAdmin; 
+
+if (isLoggedIn == true && isAdmin == true) {
+    console.log("Полный доступ")
+} else if (isLoggedIn == true !== isAdmin == false ) {
+    console.log("Ограниченный доступ")
+} else {
+    console.log("Доступ запрещён")
+}
+*/
+
+//zadan 3
+/*
+let a1 = 10;
+let b1 = "10";
+
+console.log(a1 == b1);
+console.log(a1 === b1);
+*/
+
+//zadan 4
+
+// let monthNumber = 2;
+
+// switch (monthNumber) {
+//     case 1: console.log("Январь"); break;
+//     case 2: console.log("Февраль"); break;
+//     case 3: console.log("Март"); break;
+//     case 4: console.log("Апрель"); break;
+//     case 5: console.log("Май"); break;
+//     case 6: console.log("Июнь"); break;
+//     case 7: console.log("Июль"); break;
+//     case 8: console.log("Август"); break;
+//     case 9: console.log("Сентябрь"); break;
+//     case 10: console.log("Октябрь"); break;
+//     case 11: console.log("Ноябрь"); break;
+//     case 12: console.log("Декабрь"); break;
+//     default: console.log("не правильно ввёл")
+// }
